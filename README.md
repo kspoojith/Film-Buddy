@@ -106,13 +106,10 @@ Contributions are welcome! Please follow these steps:
 
 5. Open a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
-Special thanks to all contributors and the open-source community for their invaluable resources and support.
+Special thanks to K.satvik kiran, v.vamsi Krishna for contributing in this project
 
 ---
 

@@ -1,52 +1,62 @@
-Film Buddy
+# Film Buddy
+
 Film Buddy is a web application designed to assist users in discovering movies and managing their personal watchlists. Users can search for films, view detailed information, and maintain a list of movies they wish to watch.
 
-Features
-Movie Search: Users can search for movies by title and view details such as release date, genre, and synopsis.
-Watchlist Management: Users can add or remove movies from their personal watchlist.
-User Authentication: Secure user registration and login functionality to manage personal watchlists.
-Installation
+## Features
+
+- **Movie Search**: Users can search for movies by title and view details such as release date, genre, and synopsis.
+- **Watchlist Management**: Users can add or remove movies from their personal watchlist.
+- **User Authentication**: Secure user registration and login functionality to manage personal watchlists.
+
+## Installation
+
 To run this project locally, follow these steps:
 
-Clone the repository:
+1. **Clone the repository**:
 
-bash
-Copy code
-git clone https://github.com/kspoojith/Film-Buddy.git
-cd Film-Buddy
-Install dependencies:
+   ```bash
+   git clone https://github.com/kspoojith/Film-Buddy.git
+   cd Film-Buddy
+   ```
 
-Ensure you have Node.js installed. Then, install the necessary packages:
+2. **Install dependencies**:
 
-bash
-Copy code
-npm install
-Set up environment variables:
+   Ensure you have [Node.js](https://nodejs.org/) installed. Then, install the necessary packages:
 
-Create a .env file in the root directory and add the following variables:
+   ```bash
+   npm install
+   ```
 
-env
-Copy code
-PORT=3000
-MONGODB_URI=your_mongodb_connection_string
-SESSION_SECRET=your_session_secret
-Replace your_mongodb_connection_string with your MongoDB connection string and your_session_secret with a secret key for session management.
+3. **Set up environment variables**:
 
-Start the application:
+   Create a `.env` file in the root directory and add the following variables:
 
-bash
-Copy code
-npm start
-The application will be accessible at http://localhost:3000.
+   ```env
+   PORT=3000
+   MONGODB_URI=your_mongodb_connection_string
+   SESSION_SECRET=your_session_secret
+   ```
 
-Technologies Used
-Backend: Node.js with Express.js framework
-Frontend: EJS templating engine
-Database: MongoDB
-Authentication: Passport.js
-Project Structure
-pgsql
-Copy code
+   Replace `your_mongodb_connection_string` with your MongoDB connection string and `your_session_secret` with a secret key for session management.
+
+4. **Start the application**:
+
+   ```bash
+   npm start
+   ```
+
+   The application will be accessible at `http://localhost:3000`.
+
+## Technologies Used
+
+- **Backend**: Node.js with Express.js framework
+- **Frontend**: EJS templating engine
+- **Database**: MongoDB
+- **Authentication**: Passport.js
+
+## Project Structure
+
+```
 Film-Buddy/
 ├── config/
 │   └── db.js               # Database configuration
@@ -69,32 +79,41 @@ Film-Buddy/
 ├── .gitignore
 ├── package.json
 └── server.js               # Main server file
-Contributing
+```
+
+## Contributing
+
 Contributions are welcome! Please follow these steps:
 
-Fork the repository.
+1. Fork the repository.
+2. Create a new branch:
 
-Create a new branch:
+   ```bash
+   git checkout -b feature-name
+   ```
 
-bash
-Copy code
-git checkout -b feature-name
-Make your changes and commit them:
+3. Make your changes and commit them:
 
-bash
-Copy code
-git commit -m 'Add new feature'
-Push to the branch:
+   ```bash
+   git commit -m 'Add new feature'
+   ```
 
-bash
-Copy code
-git push origin feature-name
-Open a pull request.
+4. Push to the branch:
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
+   ```bash
+   git push origin feature-name
+   ```
 
-Acknowledgements
+5. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
 Special thanks to all contributors and the open-source community for their invaluable resources and support.
 
-Note: This README is based on the structure and information available in the Film Buddy repository. For more details, please refer to the repository.
+---
+
+*Note: This README is based on the structure and information available in the [Film Buddy repository](https://github.com/kspoojith/Film-Buddy.git). For more details, please refer to the repository.*
